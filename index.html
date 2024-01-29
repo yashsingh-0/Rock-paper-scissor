@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		ROCK PAPER SCISSOR GAME
+	</title>
+	<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+	<div class="container">
+		<h1 class="title-area">ROCK PAPER SCISSOR GAME</h1>
+		<div class="content-container">
+			<div class="user-options">
+				<label class="label">User Choice</label>
+				<input type="radio" name="user-options" id="rock" value="Rock">Rock</input>
+				<input type="radio" name="user-options" id="paper" value="Paper">Paper</input>
+				<input type="radio" name="user-options" id="scissor" value="Scissor">Scissor</input>
+			</div>	
+			<div class="computer-choice">
+				<label class="label">Computer Choice</label>
+				<button class="btn" id="computer" value="computer">
+					
+				</button>
+			</div>
+			<div class="result">
+				<p id="winner">Winner: </p>
+			</div>	
+			<center>
+				<button class="btn" value="submit" onclick={play()}>Play</button>
+			</center>
+		</div>	
+	</div>
+	<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
